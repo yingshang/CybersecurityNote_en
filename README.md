@@ -4,8 +4,8 @@ This security notes are tools that I use to learn and record information about r
 
 Links:
 
-- [Information Security Notes Chinese Version](https://icybersec.gitbook.io/cybersecuritynote-cn/)
-- [Information Security Notes English Version](https://icybersec.gitbook.io/cybersecuritynote-en/)
+- [Cybersecurity Note Chinese Version](https://icybersec.gitbook.io/cybersecuritynote-cn/)
+- [Cybersecurity Note English Version](https://icybersec.gitbook.io/cybersecuritynote-en/)
 - [GitHub Repository Address](https://github.com/yingshang/CybersecurityNote_en)
 - [Author's Blog](https://www.freebuf.com/author/陌度)
 
