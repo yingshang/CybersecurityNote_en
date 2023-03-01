@@ -16,12 +16,12 @@ sequenceDiagram
     participant DomainController
     participant Victim
 
-    Attacker ->> DomainController: 发送无效身份验证请求（AS-REQ）
-    DomainController -->> Attacker: 发送身份验证错误（KRB5KDC_ERR_PREAUTH_REQUIRED）
-    Attacker ->> Victim: 发送AS-REQ请求，请求不需要预身份验证
-    Victim -->> Attacker: 发送AS-REP响应，包含用户加密的AES密钥
-    Attacker ->> DomainController: 使用加密的AES密钥尝试破解密码散列
-    DomainController -->> Attacker: 发送密码散列
+    Attacker ->> DomainController: Send invalid authentication request (AS-REQ)
+    DomainController -->> Attacker: Send authentication error (KRB5KDC_ERR_PREAUTH_REQUIRED)
+    Attacker ->> Victim: Send AS-REQ request, requesting no preauthentication
+    Victim -->> Attacker: Send AS-REP response containing the user's encrypted AES key
+    Attacker ->> DomainController: Attempt to crack password hash using the encrypted AES key
+    DomainController -->> Attacker: Send password hash
 
 ```
 
