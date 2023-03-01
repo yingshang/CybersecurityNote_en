@@ -15,6 +15,9 @@
   * [Exam experience sharing](<Security Certificates/CRTO/Exam experience sharing.md>)
 * [OSCP](<Security Certificates/OSCP/README.md>)
   * [Exam experience sharing](<Security Certificates/OSCP/Exam experience sharing.md>)
+## Security Testing
+* [Lateral Movement](<Security Testing/Lateral Movement/README.md>)
+  * [AS-REP Roasting Attack](<Security Testing/Lateral Movement/AS-REP Roasting Attack.md>)
 ## Security Vulnerability
 * [application Vulnerability](<Security Vulnerability/application Vulnerability/README.md>)
 * [Linux Privilege Escalation Vulnerability](<Security Vulnerability/Linux Privilege Escalation Vulnerability/README.md>)
